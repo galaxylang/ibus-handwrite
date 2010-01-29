@@ -1,0 +1,28 @@
+#summary One-sentence summary of this page.
+#labels Featured,Phase-QA,Phase-Support
+
+= 安装指引  =
+
+下载源码，解压后执行 
+{{{
+./configre --prefix=/usr   
+}}}
+
+注意，一定要使用 --prefix=/usr ，否者 ibus 找不到新加入的引擎
+
+
+然后就是千篇一律的 
+{{{
+make 
+sudo make install
+}}}
+
+好了，重启 ibus 后添加进来进行享受吧!
+
+= Details =
+
+*需要 ibus-dev glib-dev libc6-dev libzinnia-dev 开发包 *
+
+zinnia 是一个开源的汉字识别引擎。
+
+
