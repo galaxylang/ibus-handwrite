@@ -1,6 +1,20 @@
 #summary One-sentence summary of this page.
 #labels Featured,Phase-QA,Phase-Support
 
+ = 安装需求 =
+
+ 建议使用 deb 包安装
+
+ 如果想尝新，或者不在 deb 系列，可以使用 编译安装
+
+ 编译安装需要安装 (括号中的是 rpm 系列的名称)
+
+ #  libzinnia0-dev (libzinnia-devel) 
+ #  libibus-dev (ibus-libs-devel)
+ #  libgtk2.0-dev (gtk2-devel)
+ 
+
+
 = 安装指引  =
 
 下载源码，解压后执行 
