@@ -5,7 +5,7 @@
 
 下载源码，解压后执行 
 {{{
-./configre --prefix=/usr   
+./configure --prefix=/usr   
 }}}
 
 注意，一定要使用 --prefix=/usr ，否者 ibus 找不到新加入的引擎
@@ -29,4 +29,3 @@ make 的时候，make 会自己调用 wget 下载进行识别所使用的 handwr
 如果编译的时候没有网络链接，可以自行下载  http://ibus-handwrite.googlecode.com/svn/files/handwriting-zh_CN.model  并放到源码目录的 data 子目录下。
 
 这样就可以避免编译的时候因为网络故障而导致编译失败
-
