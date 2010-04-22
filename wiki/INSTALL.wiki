@@ -39,9 +39,5 @@ sudo make install
 
 *需要 ibus-dev glib-dev libc6-dev libzinnia-dev 开发包 *
 
-zinnia 是一个开源的汉字识别引擎。
 ----------
-make 的时候，make 会自己调用 wget 下载进行识别所使用的 handwriting-zh_CN.model 文件，这需要有快速的网络连接 (只下载一次的啦)
-如果编译的时候没有网络链接，可以自行下载  http://ibus-handwrite.googlecode.com/svn/files/handwriting-zh_CN.model  并放到源码目录的 data 子目录下。
-
-这样就可以避免编译的时候因为网络故障而导致编译失败
+zinnia 是一个开源的 汉字/日本字 识别引擎。
