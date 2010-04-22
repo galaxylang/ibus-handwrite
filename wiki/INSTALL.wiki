@@ -12,7 +12,7 @@
  #  libzinnia0-dev (libzinnia-devel) 
  #  libibus-dev (ibus-libs-devel)
  #  libgtk2.0-dev (gtk2-devel)
- 
+ # zinnia-tomoe 数据文件
 
 
 = 安装指引  =
@@ -21,6 +21,8 @@
 {{{
 ./configure --prefix=/usr   
 }}}
+
+如果需要使用 zinnia 引擎，可以加入 --enable-zinnia --with-zinnia-tomoe=zinnia-tome数据文件安装目录
 
 注意，一定要使用 --prefix=/usr ，否者 ibus 找不到新加入的引擎
 
