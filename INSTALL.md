@@ -1,0 +1,30 @@
+# 安装指引 #
+
+下载源码，解压后执行
+```
+./configure --prefix=/usr   
+```
+
+如果需要使用 zinnia 引擎，可以加入 --enable-zinnia --with-zinnia-tomoe=zinnia-tome数据文件安装目录
+
+**注意，一定要使用 --prefix=/usr ，否者 ibus 找不到新加入的引擎**
+
+**注意，启用 zinnia 才有日语识别。我的引擎只支持简体中文**
+
+
+然后就是千篇一律的
+```
+make 
+sudo make install
+```
+
+好了，重启 ibus 后添加进来进行享受吧!
+
+# Details #
+
+**需要 ibus-dev glib-dev libc6-dev libzinnia-dev 开发包**
+
+
+---
+
+zinnia 是一个开源的 汉字/日本字 识别引擎。
